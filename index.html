@@ -6,7 +6,7 @@ Requirements
 [  ] Three Images
 
 Select ONE Additional Feature to Add  
-[ no ] Feature 1 - Include a Background Image
+[ Yes ] Feature 1 - Include a Background Image
 [ no ] Feature 2 - Include Border Radius CSS Property
 [ no ] Feature 3 - Include Horizontal Line
 [ no ] Feature 4 - Embed YouTube Video
@@ -18,9 +18,71 @@ Select ONE Additional Feature to Add
     <head>
         <meta charset="utf-8">
         <title>Unit 2 Project</title>
+      <style>
+        @font-face{
+  font-family: heavitas;
+  src: url(https://cdn.glitch.global/5b2f0808-8682-4f45-b43c-8d0d4ce8d8c9/Heavitas.ttf?v=1727896718069);
+}
+        @font-face{
+  font-family: avocade ;
+  src: url(https://cdn.glitch.global/5b2f0808-8682-4f45-b43c-8d0d4ce8d8c9/Avocade-Bold%20Free.otf?v=1727898006772);
+}
+        body {
+  background-image: url('https://cdn.glitch.global/5b2f0808-8682-4f45-b43c-8d0d4ce8d8c9/sk.png?v=1727897563102');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  background-position: center;
+  background-size: cover; }
+        p {
+  color: white; 
+  font-family: avocade;
+  font-size: 20px
+}
+        h4{
+          font-family: heavitas;
+          font-size: 30px
+        }
+      
+        .whitefont{color: white}
+        .fontcolorteal{color: rgb(203, 229, 245)}
+        .centeralign{text-align: center;}
+        .fontchangeheavitas{font-family: "heavitas"}
+        .fontchangeavocade{font-family: "avocade"}
+        .leftalign{text-align: left}
+        .rigntalign{text-align: right}
+        
+        
+        #ebott{
+          float: right;margin-right: 1250px
+        }
+        #bar{
+          float: left;margin-left: 1250px
+        }
+      </style>
     </head>
     <body>
-
-        
+      <h1 class="centeralign fontcolorteal fontchangeheavitas">
+        <font size="+9">W</font>elcome to <font size="+9">T</font>he <font size="+9">U</font>nderground!
+      </h1>
+  <h2 class="centeralign fontcolorteal fontchangeavocade">
+        Come and stay a while.
+      </h2>
+      
+ <h4 class="leftalign fontcolorteal ">
+       Where we are! 
+      </h4>
+      
+      <p> <img id="ebott" src="https://cdn.glitch.global/5b2f0808-8682-4f45-b43c-8d0d4ce8d8c9/mount%20ebott.png?v=1727968773622" width="350">  
+        Located in the vast caverns of Mount Ebott, <br> we've been trapped here for a long time, <br> so we're so happy that you fell down here with us! 
+      </p>
+      <br>
+      <h4 class="rigntalign fontcolorteal">
+       Who we are!
+      </h4>
+      <p class="rigntalign"> <img id="bar" src="https://cdn.glitch.global/5b2f0808-8682-4f45-b43c-8d0d4ce8d8c9/harlem-shake-dancing-meme.gif?v=1727902212356" width="350">  
+        We monsters are all pretty different!<br>From funny skeletons to muderous robots, <br> depressed ghosts to muffin obsessed spiders, <br> and angry fish to nerdy dinosaur's, <br> we all have a story to tell! <br> Come chat with us! <br> We might be trying to kill you, but friends can happen even with homocidal motivations!
+      </p>
+      <br>      
     </body>
 </html>
